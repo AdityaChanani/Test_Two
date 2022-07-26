@@ -12,6 +12,14 @@ public class Part_2_2 : MonoBehaviour
             133, 14, 15 ,16 ,117 ,18 ,19, 20, 291, 22, 3, 24, 25};
         int sum = 0;
 
+        foreach(int var in list)
+        {
+            if (var % 2 == 0)
+            {
+                print(var + "is Even");
+            }
+        }
+
 
 
         print(sum);
